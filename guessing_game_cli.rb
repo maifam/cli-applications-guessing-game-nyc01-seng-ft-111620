@@ -1,5 +1,7 @@
 def run_guessing_game
-  rand (1..6)
-  
+  random_num = rand (1..6)
   input = gets.chomp 
+  
+  if input == random_num 
+    puts ""
 end 
