@@ -9,6 +9,4 @@ def run_guessing_game
   else input != random_num
     puts "Sorry! The computer guessed #{random_num}"
   end 
-  puts "Invalid Input"
-  
 end 
